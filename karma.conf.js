@@ -20,8 +20,7 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
-    // browsers: ['PhantomJS'],
+    browsers: ['PhantomJS'],
     singleRun: false,
     concurrency: Infinity
   });
